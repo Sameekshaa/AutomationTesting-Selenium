@@ -127,7 +127,7 @@ it("Fill Practice Form", async function () {
 // ElementClickInterceptedError: element click intercepted: Element <div class=" css-2b097c-container" id="state">...</div> 
 // is not clickable at point (433, 817). Other element would receive the click: <div>...</div>
 // (Session info: chrome=99.0.4844.51)
-/* This is not a problem as driver.manage().window().maximize(); is used and works fine when you don't change the screen size :P
+/* This is not a problem as driver.manage().window().maximize(); is used and works fine when you don't change the screen size :P */
 
 // Error: Maybe because of ads...:/
 // var cityName = await driver.findElement(By.id("react-select-4-option-0"));
